@@ -4,7 +4,7 @@ body {
     align-items: center;
     
     /* width: 450px; */
-    height: 150%; 
+    height: 100%; 
     background-color: #2A2A2A;
     position: relative;
 
@@ -13,7 +13,7 @@ body {
   #countdown{
       width: 100%;
   position: absolute;
-    top: 90px;
+    top: 50px;
     font-family: tahoma;
     font-size: 60pt;
     color: #F5EBE2;
@@ -22,13 +22,13 @@ body {
   
   .lock {
     width: 250px;
-    height: 300px;
+    height: 260px;
     scale: 2.25;
   }
   
   #svg{
     position: absolute;
-    top: 250px;
+    top: 210px;
   }
   
   #lockBox{
@@ -55,7 +55,7 @@ body {
     height: 35px;
     
     position: absolute;
-    top: 625px;
+    top: 585px;
   }
   
   button{
@@ -63,7 +63,7 @@ body {
     color: #2A2A2A;
     width: 200px;
     position: absolute;
-    top: 700px;
+    top: 660px;
     height: 40px;
     font-size: 20pt;
   }
