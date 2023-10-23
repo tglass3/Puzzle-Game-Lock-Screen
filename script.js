@@ -71,21 +71,38 @@ button.addEventListener( 'click' , () => {
 
 
 function unlockGood(){
-gsap.timeline()
-  .to('#lockArm', 
-          {transformOrigin:'center center', rotate: -15, duration: 2, delay: 1 })
-.to('#keyhole', {opacity: 0, duration: 0.5})
-.fromTo(".eye", {transformOrigin: 'center center', opacity: 0, scaleY: 0}, {delay: 0.5, opacity: 1, scaleY: 2.25, duration: 2})
-.to('#good', {visibility: "visible", delay: 1})}
+  gsap.timeline()
+    .to('#lockArm', 
+            {transformOrigin:'center center', rotate: -15, duration: 2, delay: 0.5 })
+  .to('#keyhole', {opacity: 0, duration: 0.5})
+  .fromTo(".eye", {transformOrigin: 'center center', opacity: 0, scaleY: 0}, {delay: 0.5, opacity: 1, scaleY: 2.25, duration: 2})
+  // .to('#good', {visibility: "visible", delay: 1})
+
+  const siteChange = setTimeout(changePageGood, 5500);
+
+  }
+
+  function changePageGood(){
+    window.location.href = "good.html";
+  }
+ 
 
 
 function unlockBad(){
 gsap.timeline()
   .to('#lockArm', 
-          {transformOrigin:'center center', rotate: -15, duration: 2, delay: 1 })
+          {transformOrigin:'center center', rotate: -15, duration: 2, delay: 0.5 })
 .to('#keyhole', {opacity: 0, duration: 0.5})
 .fromTo(".eye", {transformOrigin: 'center center', opacity: 0, scaleY: 0}, {delay: 0.5, opacity: 1, scaleY: 2.25, duration: 2})
-.to('#bad', {visibility: "visible", delay: 1})}
+// .to('#bad', {visibility: "visible", delay: 1})
+
+const siteChangeBad = setTimeout(changePageBad, 5500);
+
+  }
+
+  function changePageBad(){
+    window.location.href = "bad.html";
+  }
 
 
 
