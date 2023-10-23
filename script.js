@@ -73,7 +73,7 @@ button.addEventListener( 'click' , () => {
 function unlockGood(){
   gsap.timeline()
     .to('#lockArm', 
-            {transformOrigin:'center center', rotate: -30, duration: 2, delay: 0.5 })
+            {transformOrigin:'center center', rotate: -30, duration: 2, delay: 0.5, x:-10 })
   .to('#keyhole', {opacity: 0, duration: 0.5})
   .fromTo(".eye", {transformOrigin: 'center center', opacity: 0, scaleY: 0}, {opacity: 1, scaleY: 2.25, duration: 1})
   // .to('#good', {visibility: "visible", delay: 1})
@@ -91,7 +91,7 @@ function unlockGood(){
 function unlockBad(){
 gsap.timeline()
   .to('#lockArm', 
-          {transformOrigin:'center center', rotate: -30, duration: 2, delay: 0.5 })
+          {transformOrigin:'center center', rotate: -30, duration: 2, delay: 0.5, x: -10})
 .to('#keyhole', {opacity: 0, duration: 0.5})
 .fromTo(".eye", {transformOrigin: 'center center', opacity: 0, scaleY: 0}, {opacity: 1, scaleY: 2.25, duration: 1})
 // .to('#bad', {visibility: "visible", delay: 1})
