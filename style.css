@@ -5,19 +5,17 @@ body {
     
     /* width: 450px; */
     height: 100vh; 
-    
+    background-color: #2A2A2A;
     position: relative;
-    outline: 2pt dotted green;
   }
   
   #countdown{
       width: 100%;
-    outline: 2pt dotted grey;
   position: absolute;
     top: 90px;
     font-family: tahoma;
     font-size: 60pt;
-    color: black;
+    color: #F5EBE2;
     font-weight:800;
   }
   
@@ -29,31 +27,29 @@ body {
   
   #svg{
     position: absolute;
-    outline: 2pt dotted red;
     top: 250px;
   }
   
   #lockBox{
-    fill: green;
+    fill: #F5EBE2;
    
   }
   
   #keyhole{
-    fill: purple;
+    fill: #2A2A2A;
   }
   
   #lockArm{
-    fill: green;
+    fill: #F5EBE2;
   }
   
   .eye{
-    fill: black;
+    fill: #2A2A2A;
     scale: 2.25;
     opacity: 0;
   }
   
   input{
-    outline: 2px dotted pink;
     width: 350px;
     height: 35px;
     
@@ -62,8 +58,8 @@ body {
   }
   
   button{
-    color: black;
-    outline: 2pt dotted blue;
+    background-color: #F5EBE2;
+    color: #2A2A2A;
     width: 200px;
     position: absolute;
     top: 700px;
@@ -74,7 +70,6 @@ body {
   #good{
     width: 100%;
     height: 100%;
-    background: green;
     position: absolute;
     top: 0;
     visibility: hidden;
@@ -83,7 +78,6 @@ body {
   #bad{
     width: 100%;
     height: 100%;
-    background: red;
     position: absolute;
     top: 0;
     visibility: hidden;
