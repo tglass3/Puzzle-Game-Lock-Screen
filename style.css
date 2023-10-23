@@ -28,7 +28,7 @@ body {
   
   #svg{
     position: absolute;
-    top: 210px;
+    top: 180px;
   }
   
   #lockBox{
@@ -55,7 +55,7 @@ body {
     height: 35px;
     
     position: absolute;
-    top: 550px;
+    top: 525px;
   }
   
   button{
@@ -63,7 +63,7 @@ body {
     color: #2A2A2A;
     width: 200px;
     position: absolute;
-    top: 630px;
+    top: 600px;
     height: 40px;
     font-size: 20pt;
   }
